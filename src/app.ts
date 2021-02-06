@@ -29,12 +29,14 @@ function startMe() {
     let x = ROT.RNG.getUniform()
     if (x < 0.3334) {
         d = new ROT.Map.IceyMaze(map_width, map_height, 0)
+
     }  else if (x < 0.6667) {
         d = new ROT.Map.Cellular(map_width, map_height)
         d.randomize(0.5)
         d.randomize(0.5)
+
     } else {
-        d = new ROT.Map.Arena(map_width, map_height)
+        d = new ROT.Map.Digger(map_width, map_height)
     }
     d.create(callback)
 
