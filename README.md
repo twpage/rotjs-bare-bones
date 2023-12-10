@@ -2,7 +2,7 @@
 
 npm init -y
 
-npm install --save-dev typescript rot-js webpack webpack-cli ts-loader live-server npm-run-all
+npm install --save-dev typescript rot-js webpack webpack-cli ts-loader http-server npm-run-all
 
 # Edit Scripts
 
