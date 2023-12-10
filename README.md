@@ -12,7 +12,7 @@ Edit 'scripts' in package.json:
 "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "serve": "live-server --port=8085"
+    "serve": "http-server --port=8085"
   },
 ```
 
